@@ -1,7 +1,15 @@
 # HyperF Project
 
-### Start Project
+#### Start Project
 
 ```bash
-    docker compose run --rm --service-ports hyperf-skeleton
+    make init
+```
+
+#### Start Server
+
+Inside the container
+
+```bash
+    php bin/hyperf.php start 
 ```
