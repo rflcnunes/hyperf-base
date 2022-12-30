@@ -11,5 +11,5 @@
 Inside the container
 
 ```bash
-    php bin/hyperf.php start 
+    php bin/hyperf.php server:watch
 ```

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bce2997c8fd899e94daa8b108c53fb1",
+    "content-hash": "af53603f967a189e2c8a729cf0febc2d",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2149,6 +2149,58 @@
                 "source": "https://github.com/hyperf/hyperf"
             },
             "time": "2022-12-10T13:24:37+00:00"
+        },
+        {
+            "name": "hyperf/watcher",
+            "version": "v3.0.0-rc.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/watcher.git",
+                "reference": "11a5b0ef499b7dfe51709d80e716ccb9d70e50b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/watcher/zipball/11a5b0ef499b7dfe51709d80e716ccb9d70e50b7",
+                "reference": "11a5b0ef499b7dfe51709d80e716ccb9d70e50b7",
+                "shasum": ""
+            },
+            "require": {
+                "hyperf/command": "~3.0.0",
+                "hyperf/di": "~3.0.0",
+                "hyperf/framework": "~3.0.0",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                },
+                "hyperf": {
+                    "config": "Hyperf\\Watcher\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Functions.php"
+                ],
+                "psr-4": {
+                    "Hyperf\\Watcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Hot reload watcher for Hyperf",
+            "keywords": [
+                "hyperf",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/hyperf/watcher/issues",
+                "source": "https://github.com/hyperf/watcher/tree/v3.0.0-rc.16"
+            },
+            "time": "2022-11-18T09:45:31+00:00"
         },
         {
             "name": "laminas/laminas-mime",
